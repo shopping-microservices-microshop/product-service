@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-service
+spec:
+  selector:
+    app: product-service
+  ports:
+    - port: 8001
+      targetPort: 8001
+  type: ClusterIP
+  template:
+    spec:
+      containers:
+        - image: willchrist/product-service:491b1f4
