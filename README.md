@@ -217,31 +217,8 @@ jobs:
 - **Vulnerability Categories**: XSS, injection, authentication bypass detection
 - **Security Events**: Automated security issue tracking and remediation
 
-#### Software Composition Analysis (SCA)
-```yaml
-- name: Run Trivy SCA
-  uses: aquasecurity/trivy-action@0.24.0
-  with:
-    scan-type: 'fs'
-    severity: 'CRITICAL,HIGH'
-    ignore-unfixed: true
-```
-- **Dependency Vulnerability Scanning**: CVE detection in npm packages
-- **License Compliance**: Open source license validation
-- **Supply Chain Security**: Malicious package detection
-- **Severity Prioritization**: Focus on exploitable vulnerabilities
 
-#### Dynamic Application Security Testing (DAST)
-```yaml
-- name: Run OWASP ZAP Baseline Scan
-  uses: zaproxy/action-baseline@v0.11.0
-  with:
-    target: "http://localhost:8001"
-```
-- **Runtime Security Testing**: Live application vulnerability assessment
-- **API Security Validation**: REST endpoint security verification
-- **OWASP Top 10**: Automated detection of common web vulnerabilities
-- **Performance Security**: Security testing under load conditions
+
 
 ### GitOps Automation Excellence
 ```yaml
