@@ -5,7 +5,7 @@ const PORT = 8001;
 
 const PRODUCTS = [
     // --- Laptops (7 products) ---
-    { id: 'p1', name: 'Lenovo Ideapad 3', category: 'laptop', price: 52000, tags: ['coding', 'budget', 'student'] },
+    { id: 'p1', name: 'Lenovo Ideapad 4', category: 'laptop', price: 52000, tags: ['coding', 'budget', 'student'] },
     { id: 'p2', name: 'MacBook Air M1', category: 'laptop', price: 84990, tags: ['coding', 'battery', 'portable'] },
     { id: 'p3', name: 'Dell XPS 15', category: 'laptop', price: 150000, tags: ['power-user', 'coding', 'design', 'high-performance'] },
     { id: 'p4', name: 'HP Spectre x360', category: 'laptop', price: 135000, tags: ['2-in-1', 'touchscreen', 'creative'] },
